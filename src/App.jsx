@@ -23,7 +23,7 @@ function App() {
             </div>
               <div className="project-body">
                 <img className="project-image" src="main-active.png" alt="image of key frame guitar"></img>
-                <p className="project-description">An app inspired by key frames in animation.
+                <p className="project-description">An app I am developing that is inspired by key frames in animation.
                   This app displays the fretboard map of two harmonies and their possible intersections based on user input.</p>
               </div>
           </div><br />
@@ -31,7 +31,7 @@ function App() {
           <div className="project" id="project-sdc">
             <div className="project-header">
               <div className="project-title">Atelier Product API</div>
-              <a href="https://github.com/maythovens-third/Products">GIT</a>
+              <a href="https://github.com/maythovens-third/Products">Github</a>
             </div>
             <div className="project-body">
               <img className="project-image" src="URL" alt="image of Atelier API tests"></img>
@@ -42,7 +42,7 @@ function App() {
           <div className="project" id="project-catwalk">
             <div className="project-header">
               <div className="project-title">project:Catwalk</div>
-              <a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related">GIT</a>
+              <a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related">Github</a>
             </div>
             <div className="project-body">
               <img className="project-image" src="URL" alt="image of catwalk carousels"></img>
