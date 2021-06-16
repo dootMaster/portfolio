@@ -31,7 +31,7 @@ function App() {
           <div className="project" id="project-sdc">
             <div className="project-header">
               <div className="project-title">Atelier Product API</div>
-              <a href="https://github.com/maythovens-third/Products">Github</a>
+              <a href="https://github.com/maythovens-third/Products">Poke around the code.</a>
             </div>
             <div className="project-body">
               <img className="project-image" src="URL" alt="image of Atelier API tests"></img>
@@ -42,7 +42,7 @@ function App() {
           <div className="project" id="project-catwalk">
             <div className="project-header">
               <div className="project-title">project:Catwalk</div>
-              <a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related">Github</a>
+              <a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related">Poke around the code.</a>
             </div>
             <div className="project-body">
               <img className="project-image" src="URL" alt="image of catwalk carousels"></img>
