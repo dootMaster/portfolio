@@ -43,7 +43,8 @@ img {
   left: auto;
 }
 
-a {
+.project-button {
+  display: flex;
   font-size: 1rem;
   color: white;
   margin: 1rem;
@@ -51,10 +52,15 @@ a {
   border-radius: 1rem;
   padding: 1rem;
   text-align: center;
-  text-decoration: none;
 }
 
-a:hover {
+.project-button, p, a {
+  color: white;
+  text-decoration: none;
+  height: min-content;
+}
+
+.project-button:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;

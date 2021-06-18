@@ -18,8 +18,12 @@ function App() {
           <div className="project" id="project-key-frame-guitar">
             <div className="project-header">
               <div className="project-title">Key Frame Guitar</div>
-              <a href="https://dootmaster.github.io/keyframeguitar/">Poke around the app.</a>
-              <a href="https://github.com/dootMaster/keyframeguitar">Poke around the code.</a><br />
+              <div className="project-button">
+                <p><a href="https://dootmaster.github.io/keyframeguitar/">Poke around the app.</a></p>
+              </div>
+              <div className="project-button">
+                <p><a href="https://github.com/dootMaster/keyframeguitar">Poke around the code.</a></p>
+              </div>
             </div>
               <div className="project-body">
                 <img className="project-image" src="main-active.png" alt="image of key frame guitar"></img>
@@ -31,7 +35,9 @@ function App() {
           <div className="project" id="project-sdc">
             <div className="project-header">
               <div className="project-title">Atelier Product API</div>
-              <a href="https://github.com/maythovens-third/Products">Poke around the code.</a>
+              <div className="project-button">
+                <p><a href="https://github.com/maythovens-third/Products">Poke around the code.</a></p>
+              </div>
             </div>
             <div className="project-body">
               <img className="project-image" src="4.png" alt="image of Atelier API tests"></img>
@@ -42,7 +48,9 @@ function App() {
           <div className="project" id="project-catwalk">
             <div className="project-header">
               <div className="project-title">project:Catwalk</div>
-              <a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related">Poke around the code.</a>
+              <div className="project-button">
+                <p><a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related">Poke around the code.</a></p>
+              </div>
             </div>
             <div className="project-body">
               <iframe width="480" height="360"
