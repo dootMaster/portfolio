@@ -4,7 +4,7 @@ const SkillLogos = () => {
   return (
     <div id="skills">
       <div>Skills</div>
-      <div id="skills-body"><br />
+      <div id="skills-body">
         <span className="logo-wrapper">
           <img className="skill-logos" src="skill-icons/javascript.png" alt="javascript logo"></img>
           <p className="skill-hover">Javascript</p>
@@ -26,8 +26,8 @@ const SkillLogos = () => {
           <p className="skill-hover">Node.js</p>
         </span>
         <span className="logo-wrapper">
-          <img className="skill-logos" src="skill-icons/jquery.png" alt="jquery logo"></img>
-          <p className="skill-hover">jQuery</p>
+          <img className="skill-logos" src="skill-icons/rest.png" alt="RESTful logo"></img>
+          <p className="skill-hover">RESTful API</p>
         </span>
         <span className="logo-wrapper">
           <img className="skill-logos" src="skill-icons/PostgreSQL.png" alt="PostgreSQL logo"></img>
@@ -52,6 +52,18 @@ const SkillLogos = () => {
         <span className="logo-wrapper">
           <img className="skill-logos" src="skill-icons/nginx.png" alt="nginx logo"></img>
           <p className="skill-hover">NGINX</p>
+        </span>
+        <span className="logo-wrapper">
+          <img className="skill-logos" src="skill-icons/postman.png" alt="postman logo"></img>
+          <p className="skill-hover">Postman</p>
+        </span>
+        <span className="logo-wrapper">
+          <img className="skill-logos" src="skill-icons/mocha.png" alt="mocha logo"></img>
+          <p className="skill-hover">Mocha</p>
+        </span>
+        <span className="logo-wrapper">
+          <img className="skill-logos" src="skill-icons/chai.png" alt="chai logo"></img>
+          <p className="skill-hover">Chai.js</p>
         </span>
       </div>
   </div>

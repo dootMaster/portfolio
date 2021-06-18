@@ -1,18 +1,20 @@
 #skills {
-  display: inline-flex;
+  display: flexbox;
   font-size: 1.5rem;
   background-color: #DB5461;
   padding: 3rem;
   border-radius: 1rem;
   margin-bottom: 2rem;
-  width: fit-content;
+  width: 50vw;
   color: white;
   user-select: none;
-  justify-content: center;
 }
 
 #skills-body {
-  display: inline-flexbox;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 8rem 8rem 8rem;
+  justify-content: space-evenly;
 }
 
 .logo-wrapper {
@@ -22,7 +24,7 @@
 
 .skill-hover {
   position: absolute;
-  top: -32px;
+  top: 5rem;
   bottom: 0;
   left: 0;
   right: 0;
@@ -31,18 +33,38 @@
   opacity: 0;
   text-align: center;
 
-
   /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
+  transition: opacity .4s, visibility .4s;
 }
 
 .logo-wrapper:hover .skill-hover {
   visibility: visible;
   opacity: 1;
+
 }
 
 .skill-logos {
   width: 64px;
   height: 64px;
   padding: 1rem;
+}
+
+.skill-logos:hover {
+  animation: heartbeat .75s infinite;
+}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( 1 );
+  }
+  50%
+  {
+    transform: scale( 1.25 );
+  }
+  100%
+  {
+    transform: scale( 1 );
+  }
 }
