@@ -50,14 +50,15 @@ img {
   margin: 1rem;
   background-color: #4C5B5C;
   border-radius: 1rem;
-  padding: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   text-align: center;
 }
 
-.project-button, p, a {
+.project-button, p a {
   color: white;
   text-decoration: none;
-  height: min-content;
+  height: max-content;
 }
 
 .project-button:hover {

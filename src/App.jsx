@@ -19,10 +19,10 @@ function App() {
             <div className="project-header">
               <div className="project-title">Key Frame Guitar</div>
               <div className="project-button">
-                <p><a href="https://dootmaster.github.io/keyframeguitar/">Poke around the app.</a></p>
+                <p><a href="https://dootmaster.github.io/keyframeguitar/" target="_blank" rel="noopener noreferrer">Poke around the app.</a></p>
               </div>
               <div className="project-button">
-                <p><a href="https://github.com/dootMaster/keyframeguitar">Poke around the code.</a></p>
+                <p><a href="https://github.com/dootMaster/keyframeguitar" target="_blank" rel="noopener noreferrer">Poke around the code.</a></p>
               </div>
             </div>
               <div className="project-body">
@@ -36,7 +36,7 @@ function App() {
             <div className="project-header">
               <div className="project-title">Atelier Product API</div>
               <div className="project-button">
-                <p><a href="https://github.com/maythovens-third/Products">Poke around the code.</a></p>
+                <p><a href="https://github.com/maythovens-third/Products" target="_blank" rel="noopener noreferrer">Poke around the code.</a></p>
               </div>
             </div>
             <div className="project-body">
@@ -51,7 +51,7 @@ function App() {
             <div className="project-header">
               <div className="project-title">project:Catwalk</div>
               <div className="project-button">
-                <p><a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related">Poke around the code.</a></p>
+                <p><a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related" target="_blank" rel="noopener noreferrer">Poke around the code.</a></p>
               </div>
             </div>
             <div className="project-body">
