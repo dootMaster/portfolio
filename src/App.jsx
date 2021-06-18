@@ -41,7 +41,9 @@ function App() {
             </div>
             <div className="project-body">
               <img className="project-image" src="4.png" alt="image of Atelier API tests"></img>
-              <p className="project-description">An API that provides data to a fashion products merchant site.</p>
+              <p className="project-description">An API that provides data to a fashion products merchant site.
+              Three instances of Express.js servers were deployed behind an NGINX load balancer, and connected to an instance of PostgreSQL.
+              I wrote K6 tests that created up to 3000 virtual users that bombard the load balancer with requests in order to locate where optimizations can be made to the system.</p>
             </div>
           </div><br />
 
