@@ -1,7 +1,12 @@
 #projects-container {
+
+}
+
+.project {
   background-color: #DB5461;
   padding: 2rem;
   border-radius: 1rem;
+  justify-content: center;
 }
 
 .project-header {
@@ -24,14 +29,18 @@ img {
 }
 
 .project-body {
-  display: inline-flex;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 2rem;
 }
 
 .project-description {
+  position: relative;
   font-size: 2rem;
   color: white;
   margin: 1rem;
   user-select: none;
+  left: auto;
 }
 
 a {

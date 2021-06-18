@@ -23,7 +23,7 @@ function App() {
             </div>
               <div className="project-body">
                 <img className="project-image" src="main-active.png" alt="image of key frame guitar"></img>
-                <p className="project-description">An app I am developing that is inspired by key frames in animation.
+                <p className="project-description">A guitar navigation app I am building inspired by key frames in animation.
                   This app displays the fretboard map of two harmonies and their possible intersections based on user input.</p>
               </div>
           </div><br />
@@ -34,7 +34,7 @@ function App() {
               <a href="https://github.com/maythovens-third/Products">Poke around the code.</a>
             </div>
             <div className="project-body">
-              <img className="project-image" src="URL" alt="image of Atelier API tests"></img>
+              <img className="project-image" src="4.png" alt="image of Atelier API tests"></img>
               <p className="project-description">An API that provides data to a fashion products merchant site.</p>
             </div>
           </div><br />
@@ -45,8 +45,10 @@ function App() {
               <a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related">Poke around the code.</a>
             </div>
             <div className="project-body">
-              <img className="project-image" src="URL" alt="image of catwalk carousels"></img>
-              <p className="project-description">An e-commerce site where I developed the "Related Products" module.</p>
+              <iframe width="480" height="360"
+                src="https://youtube.com/embed/jaNWTNB9OsA">
+              </iframe>
+              <p className="project-description">An e-commerce site where I built the "Related Products" module. I built these carousels from scratch to enhance customizability.</p>
             </div>
           </div>
         </div>
