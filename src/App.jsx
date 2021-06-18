@@ -27,7 +27,7 @@ function App() {
             </div>
               <div className="project-body">
                 <img className="project-image" src="main-active.png" alt="image of key frame guitar"></img>
-                <p className="project-description">A guitar navigation app I am building inspired by key frames in animation.
+                <p className="project-description">A guitar navigation app I built inspired by key frames in animation.
                   This app displays the fretboard map of two harmonies and their possible intersections based on user input.</p>
               </div>
           </div><br />
