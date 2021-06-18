@@ -4,14 +4,7 @@ const About = () => {
   return (
     <div id="about-me">
     <div>About</div>
-      <p>I'm a software engineer, music instructor, and audio engineer.
-        I'm currently working on developing a web application that help
-        guitarists improve their musical navigation abilities.
-        I started programming as a hobby, teaching myself C# for Unity,
-        and eventually migrating to Godot and its native language, GDscript.
-        I soon decided to pursue programming as a career. I now work with
-        Javascript, React.js, Express, and other related technologies to
-        create full-stack applications.</p>
+      <p>Software engineer with a demonstrated mindset for clean, modular code in order to achieve scalability and optimization. I work with Javascript, React.js, Express.js, CSS3, Postgres, MySQL, MondoDB, AWS, and NGINX to create full-stack applications. I'm currently developing a web application that helps guitarists improve their fretboard navigation abilities. I started programming by teaching myself C# for game development, and eventually migrated to Godot and its native language, GDscript.</p>
   </div>
   )
 }
