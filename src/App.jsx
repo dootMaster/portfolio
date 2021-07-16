@@ -17,7 +17,7 @@ function App() {
 
           <div className="project" id="project-key-frame-guitar">
             <div className="project-header">
-              <div className="project-title">Key Frame Guitar</div>
+              <h3 className="project-title">Key Frame Guitar</h3>
               <div className="project-button">
                 <p><a href="https://dootmaster.github.io/keyframeguitar/" target="_blank" rel="noopener noreferrer">Poke around the app.</a></p>
               </div>
@@ -34,7 +34,7 @@ function App() {
 
           <div className="project" id="project-sdc">
             <div className="project-header">
-              <div className="project-title">Atelier Product API</div>
+              <h3 className="project-title">Atelier Product API</h3>
               <div className="project-button">
                 <p><a href="https://github.com/maythovens-third/Products" target="_blank" rel="noopener noreferrer">Poke around the code.</a></p>
               </div>
@@ -49,7 +49,7 @@ function App() {
 
           <div className="project" id="project-catwalk">
             <div className="project-header">
-              <div className="project-title">project:Catwalk</div>
+              <h3 className="project-title">project:Catwalk</h3>
               <div className="project-button">
                 <p><a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related" target="_blank" rel="noopener noreferrer">Poke around the code.</a></p>
               </div>

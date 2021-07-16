@@ -3,7 +3,7 @@ import React from 'react';
 const SkillLogos = () => {
   return (
     <div id="skills">
-      <div>Skills</div>
+      <h3>Skills</h3>
       <div id="skills-body">
         <span className="logo-wrapper">
           <img className="skill-logos" src="skill-icons/javascript.png" alt="javascript logo"></img>
