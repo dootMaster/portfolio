@@ -85,3 +85,54 @@ img {
     transform: translate3d(0, 4px, 0);
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .project {
+    background-color: #DB5461;
+    padding: 2rem;
+    border-radius: 1rem;
+    justify-content: center;
+  }
+
+  .project-title {
+    font-size: 4rem;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    user-select: none;
+  }
+
+  .project-body {
+    display: block;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2rem;
+  }
+
+  .project-description {
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    margin: 1rem;
+    user-select: none;
+    left: auto;
+  }
+
+  .project-button {
+    display: flex;
+    font-size: 2rem;
+    color: white;
+    margin: 1.5rem;
+    background-color: #4C5B5C;
+    border-radius: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+  }
+
+  .project-button, p a {
+    color: white;
+    text-decoration: none;
+    height: max-content;
+  }
+}

@@ -7,6 +7,12 @@
   display: inline-flex;
 }
 
+#me-image {
+  border-radius: 100px;
+  height: 120px;
+  width: auto;
+}
+
 #my-name {
   color: #FDE74C;
   padding: 1rem;
@@ -19,19 +25,6 @@
   padding: 1rem;
   font-size: 1rem;
   top: 2rem;
-}
-
-#about-me {
-  background-color: #DB5461;
-  padding: 3rem;
-  border-radius: 1rem;
-  margin-bottom: 2rem;
-  width: fit-content;
-  max-width: 40vw;
-  color: white;
-  margin-right: 2rem;
-  font-size: 1.5rem;
-  user-select: none;
 }
 
 #avocado:hover {

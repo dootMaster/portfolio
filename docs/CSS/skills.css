@@ -68,3 +68,24 @@
     transform: scale( 1 );
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #skills {
+    display: flexbox;
+    font-size: 1.5rem;
+    background-color: #DB5461;
+    padding: 3rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    user-select: none;
+    width: fit-content;
+  }
+
+  #skills-body {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 8rem 8rem 8rem;
+    justify-content: space-evenly;
+  }
+}
