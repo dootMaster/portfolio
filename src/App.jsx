@@ -5,7 +5,7 @@ import SkillLogos from './components/SkillLogos.jsx';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <div id="body">
         <div id="about-and-skills-container">
@@ -64,7 +64,7 @@ function App() {
         </div>
 
       </div>
-    </div>
+    </>
   );
 }
 

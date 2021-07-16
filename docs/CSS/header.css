@@ -17,6 +17,7 @@
   color: #FDE74C;
   padding: 1rem;
   font-size: 4rem;
+  top: 4rem;
 }
 
 .my-titles {
@@ -24,7 +25,7 @@
   color: #FDE74C;
   padding: 1rem;
   font-size: 1rem;
-  top: 2rem;
+  top: 4rem;
 }
 
 #avocado:hover {
@@ -46,3 +47,4 @@
       transform:rotate(360deg);
   }
 }
+

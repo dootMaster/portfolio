@@ -18,11 +18,11 @@
     padding: 3rem;
     border-radius: 1rem;
     margin-bottom: 2rem;
-    width: fit-content;
-    max-width: 100vw;
     color: white;
     margin-right: 2rem;
-    font-size: 1.5rem;
+    font-size: 3rem;
     user-select: none;
+    width: 100%;
+    max-width: initial;
   }
 }
