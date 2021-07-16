@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <div id="body">
+      <div id="contents">
         <div id="about-and-skills-container">
           <About />
           <SkillLogos />

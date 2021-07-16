@@ -1,4 +1,4 @@
-#header {
+#header-banner {
   background-color: #4C5B5C;
   padding: 1rem;
   width: 100vw;
@@ -14,10 +14,11 @@
 }
 
 #my-name {
+  position: relative;
   color: #FDE74C;
   padding: 1rem;
   font-size: 4rem;
-  top: 4rem;
+  top: 2rem;
 }
 
 .my-titles {
@@ -45,6 +46,17 @@
   }
   to {
       transform:rotate(360deg);
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #header-banner {
+    background-color: #4C5B5C;
+    padding: 1rem;
+    width: 100vw;
+    margin-bottom: 0rem;
+    user-select: none;
+    display: inline-flex;
   }
 }
 

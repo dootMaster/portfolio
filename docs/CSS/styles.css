@@ -8,12 +8,13 @@ body {
   margin: 0;
 }
 
-#body {
+#contents {
   margin: 2rem;
 }
 
 #about-and-skills-container {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -22,7 +23,7 @@ body {
   }
 
   #about-and-skills-container {
-    display: block;
+    flex-direction: column;
     width: 100%;
   }
 }

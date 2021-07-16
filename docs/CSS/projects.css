@@ -1,6 +1,6 @@
-/* #projects-container {
-
-} */
+#projects-container {
+  margin-right: 2rem;
+}
 
 .project {
   background-color: #DB5461;
