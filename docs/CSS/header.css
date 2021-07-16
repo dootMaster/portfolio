@@ -1,62 +1,31 @@
-#header-banner {
+.header-banner {
+  display: flex;
   background-color: #4C5B5C;
-  padding: 1rem;
+  align-items: center;
+  letter-spacing: 1rem;
   width: 100vw;
-  margin-bottom: 2rem;
-  user-select: none;
-  display: inline-flex;
 }
 
-#me-image {
+.header-text-container {
+  flex-wrap: wrap;
+}
+
+.me-image {
   border-radius: 100px;
-  height: 120px;
+  height: 4rem;
   width: auto;
+  margin: 1rem;
 }
 
-#my-name {
-  position: relative;
+.my-name {
   color: #FDE74C;
-  padding: 1rem;
-  font-size: 4rem;
-  top: 2rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
 }
 
 .my-titles {
-  position: relative;
   color: #FDE74C;
-  padding: 1rem;
+  margin-left: 1rem;
   font-size: 1rem;
-  top: 4rem;
+  letter-spacing: .5rem;
 }
-
-#avocado:hover {
-  animation-name: spin;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-  transform-origin: 50% 25%;
-}
-
-@keyframes spin {
-  from {
-      transform:rotate(0deg);
-  }
-  to {
-      transform:rotate(360deg);
-  }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #header-banner {
-    background-color: #4C5B5C;
-    padding: 1rem;
-    width: 100vw;
-    margin-bottom: 0rem;
-    user-select: none;
-    display: inline-flex;
-  }
-}
-

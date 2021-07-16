@@ -1,41 +1,31 @@
 html {
-  width: 100vw;
-}
-
-h3 {
-  font-size: 48px;
-  font-style: normal;
-  font-weight: normal;
-}
-
-body {
-  background-color: #3891A6;
   font-family: "Roboto";
+  background-color: #3891A6;
   margin: 0;
 }
 
-#contents {
-  margin: 2rem;
+h3 {
+  font-size: 1.5rem;
 }
 
-#about-and-skills-container {
-  display: flex;
-  flex-direction: row;
+p {
+  font-size: 1rem;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #body {
-    margin: 2rem;
+.about-and-skills-container {
+  display: grid;
+  grid-template-areas: "a" "b";
+  gap: 2rem;
+  padding: 2rem;
+  width: min-content;
+}
+
+/* @media only screen and (min-width: 720px) {
+  .about-and-skills-container {
+    grid-template-areas: "a b";
   }
+} */
 
-  #about-and-skills-container {
-    flex-direction: column;
-    width: 100%;
-  }
+@-ms-viewport{
+  width: device-width;
 }
-
-
-
-
-
-

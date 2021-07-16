@@ -1,28 +1,6 @@
-
-#about-me {
+.about-me {
   background-color: #DB5461;
-  padding: 3rem;
   border-radius: 1rem;
-  margin-bottom: 2rem;
-  width: fit-content;
-  max-width: 40vw;
+  padding: 2rem;
   color: white;
-  margin-right: 2rem;
-  font-size: 48px;
-  user-select: none;
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #about-me {
-    background-color: #DB5461;
-    padding: 3rem;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-    color: white;
-    margin-right: 2rem;
-    font-size: 48px;
-    user-select: none;
-    width: 100%;
-    max-width: unset;
-  }
 }

@@ -1,57 +1,53 @@
 #skills {
-  display: flexbox;
-  font-size: 1.5rem;
   background-color: #DB5461;
-  padding: 3rem;
   border-radius: 1rem;
-  margin-bottom: 2rem;
-  width: 50vw;
   color: white;
   user-select: none;
+  padding: 2rem;
 }
 
 #skills-body {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-template-rows: 8rem 8rem 8rem;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 6rem 6rem 6rem 6rem 6rem;
   justify-content: space-evenly;
 }
 
 .logo-wrapper {
   position: relative;
-  height: 2rem;
+  height: 0rem;
 }
 
 .skill-hover {
-  position: absolute;
-  top: 5rem;
+  position: relative;
+  top: -2rem;
   bottom: 0;
   color: #fff;
-  visibility: hidden;
-  opacity: 0;
+  /* visibility: hidden; */
+  /* opacity: 0; */
   text-align: center;
 
   /* transition effect. not necessary */
   transition: opacity .4s, visibility .4s;
 }
 
-.logo-wrapper:hover .skill-hover {
+/* .logo-wrapper:hover .skill-hover {
   visibility: visible;
   opacity: 1;
   z-index: 5;
-}
+} */
 
 .skill-logos {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   padding: 1rem;
 }
 
-.skill-logos:hover {
+/* .skill-logos:hover {
   animation: heartbeat .75s infinite;
-}
+} */
 
-@keyframes heartbeat
+/* @keyframes heartbeat
 {
   0%
   {
@@ -65,54 +61,4 @@
   {
     transform: scale( 1 );
   }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #skills {
-    display: flex;
-    flex-direction: column;
-    font-size: 48px;
-    background-color: #DB5461;
-    padding: 3rem;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-    color: white;
-    user-select: none;
-    width: 100%;
-  }
-
-  #skills-body {
-    display: grid;
-    grid-template-columns: 12rem 12rem 12rem;
-    grid-template-rows: 12rem 12rem 12rem 12rem 12rem;
-    grid-gap: 3rem;
-    padding: 3rem;
-    margin-top: 4rem;
-  }
-
-  .logo-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-  }
-
-  .skill-logos {
-    width: 128px;
-    height: 128px;
-    padding: 1rem;
-  }
-
-  .skill-hover {
-    position: absolute;
-    top: 4rem;
-    bottom: 0;
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    text-align: center;
-
-    /* transition effect. not necessary */
-    transition: opacity .4s, visibility .4s;
-  }
-}
+} */
