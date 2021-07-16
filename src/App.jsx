@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <Header />
-      <div id="contents">
-        <div id="about-and-skills-container">
+      <div className="contents">
+        <div className="about-and-skills-container">
           <About />
           <SkillLogos />
         </div>
@@ -18,12 +18,14 @@ function App() {
           <div className="project" id="project-key-frame-guitar">
             <div className="project-header">
               <h3 className="project-title">Key Frame Guitar</h3>
-              <div className="project-button">
-                <p><a href="https://dootmaster.github.io/keyframeguitar/" target="_blank" rel="noopener noreferrer">Poke around the app.</a></p>
-              </div>
-              <div className="project-button">
-                <p><a href="https://github.com/dootMaster/keyframeguitar" target="_blank" rel="noopener noreferrer">Poke around the code.</a></p>
-              </div>
+                <div className="button-container">
+                  <button className="project-button">
+                    <p><a href="https://dootmaster.github.io/keyframeguitar/" target="_blank" rel="noopener noreferrer">Poke around the app.</a></p>
+                  </button>
+                  <button className="project-button">
+                    <p><a href="https://github.com/dootMaster/keyframeguitar" target="_blank" rel="noopener noreferrer">Poke around the code.</a></p>
+                  </button>
+                </div>
             </div>
               <div className="project-body">
                 <img className="project-image" src="main-active.png" alt="image of key frame guitar"></img>
@@ -35,9 +37,9 @@ function App() {
           <div className="project" id="project-sdc">
             <div className="project-header">
               <h3 className="project-title">Atelier Product API</h3>
-              <div className="project-button">
+              <button className="project-button">
                 <p><a href="https://github.com/maythovens-third/Products" target="_blank" rel="noopener noreferrer">Poke around the code.</a></p>
-              </div>
+              </button>
             </div>
             <div className="project-body">
               <img className="project-image" src="4.png" alt="image of Atelier API tests"></img>
@@ -50,12 +52,12 @@ function App() {
           <div className="project" id="project-catwalk">
             <div className="project-header">
               <h3 className="project-title">project:Catwalk</h3>
-              <div className="project-button">
+              <button className="project-button">
                 <p><a href="https://github.com/Weyland-Software-Group/fec/tree/main/client/src/components/Related" target="_blank" rel="noopener noreferrer">Poke around the code.</a></p>
-              </div>
+              </button>
             </div>
             <div className="project-body">
-              <iframe width="480" height="360"
+              <iframe width="100%" height="auto"
                 src="https://youtube.com/embed/jaNWTNB9OsA">
               </iframe>
               <p className="project-description">An e-commerce site where I built the "Related Products" module. I built these carousels from scratch to enhance customizability.</p>
