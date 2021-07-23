@@ -14,18 +14,18 @@
   border-radius: 100px;
   height: 4rem;
   width: auto;
-  margin: 1rem;
+  margin: 1rem .5rem 1rem 1rem;
 }
 
 .my-name {
   color: #FDE74C;
   font-size: 1.5rem;
-  margin-left: 1rem;
+  margin-left: .5rem;
 }
 
 .my-titles {
   color: #FDE74C;
-  margin-left: 1rem;
+  margin-left: .5rem;
   font-size: 1rem;
   letter-spacing: .5rem;
 }
