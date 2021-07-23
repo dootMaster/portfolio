@@ -17,7 +17,7 @@ p {
   grid-template-areas: "a" "b";
   gap: 2rem;
   padding: 2rem;
-  width: min-content;
+  /* width: min-content; */
 }
 
 /* @media only screen and (min-width: 720px) {

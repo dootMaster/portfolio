@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   background-color: #DB5461;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 1rem;
   justify-content: center;
 }
@@ -16,19 +16,20 @@
 .project-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 img {
   border-radius: 1rem;
-  margin: 1rem;
+  /* margin: 1rem; */
   user-select: none;
 }
 
 .project-title {
   color: white;
   user-select: none;
-  font-size: 2rem;
+  text-shadow: #4C5B5C;
+  align-items: center;
+  /* font-size: 2rem; */
 }
 
 .project-body {
@@ -38,9 +39,9 @@ img {
 
 .project-description {
   position: relative;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   color: white;
-  margin: 1rem;
+  margin: 1rem 0 0 0;
   user-select: none;
   left: auto;
 }
@@ -51,20 +52,20 @@ img {
 
 .project-button {
   display: flex;
-  font-size: 1.5rem;
   color: white;
-  margin: 1rem;
-  background-color: #4C5B5C;
+  margin: 0 0 1rem 0;
+  background-color:#4C5B5C;
+  /* background-color: #4C5B5C; */
   border-radius: 1rem;
-  padding: 1rem;
-  text-align: center;
-
+  border: 5px #DB5461 outset;
+  padding: .5rem;
+  max-width: max-content;
 }
 
 .project-button, p a {
   color: white;
   text-decoration: none;
-  height: max-content;
+  font-size: xx-small;
 }
 
 .project-button:hover {
