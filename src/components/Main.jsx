@@ -1,4 +1,5 @@
 import React from 'react';
+import ListItem from './ListItem.jsx';
 
 function Main () {
   return (
@@ -16,21 +17,21 @@ function Main () {
       <div className="projects">
         <h1>Projects</h1>
         <ul>
-          <li>
-            <strong><a href="https://dootmaster.github.io/keyframeguitar/">Key Frame Guitar</a></strong>
-            &nbsp;- A music practice application I built using React inspired by key frames in animation.
-            This app takes user input and creates fretboard maps of intersecting harmonies.
-          </li>
-          <li>
-            <strong><a href="https://github.com/maythovens-third/Products">Atelier Product API</a></strong>
-            &nbsp;- An API that provides data to a fashion products merchant site.
-            Three instances of Express.js servers were deployed via AWS behind an NGINX load balancer, and connected to a server hosting a database powered by PostgreSQL.
-            I wrote K6 tests that created up to 3000 virtual users that bombard the load balancer with requests in order to locate where optimizations can be performed.
-          </li>
-          <li>
-            <strong><a href="https://youtu.be/jaNWTNB9OsA">project:CATWALK</a></strong>
-            &nbsp;- An e-commerce site where I built the "Related Products" module. I made carousels from scratch to enhance customizability.
-          </li>
+          <ListItem
+            address={'https://dootmaster.github.io/keyframeguitar/'}
+            title={'Key Frame Guitar'}
+            description={"A music practice application I built using React inspired by key frames in animation. This app takes user input and creates fretboard maps of intersecting harmonies."}
+          />
+          <ListItem
+            address={"https://github.com/maythovens-third/Products"}
+            title={'Atelier Product API'}
+            description={'An API that provides data to a fashion products merchant site. Three instances of Express.js servers were deployed via AWS behind an NGINX load balancer, and connected to a server hosting a database powered by PostgreSQL. I wrote K6 tests that created up to 3000 virtual users that bombard the load balancer with requests in order to locate where optimizations can be performed.'}
+          />
+          <ListItem
+            address={'https://youtu.be/jaNWTNB9OsA'}
+            title={'project:CATWALK'}
+            description={'An e-commerce site where I built the "Related Products" module. I made carousels from scratch to enhance customizability.'}
+          />
         </ul>
       </div>
     </div>

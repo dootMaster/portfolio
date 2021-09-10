@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Navbar () {
+const Navbar = () => {
   return (
     <div className="navbar-container">
       <h3 className="name-title">leslie ngo <br/>software engineer</h3>
