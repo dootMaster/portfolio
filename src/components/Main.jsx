@@ -10,7 +10,7 @@ function Main () {
           I work with JavaScript, TypeScript, React.js, Express.js, various CSS libraries, PostgreSQL, MySQL, MongoDB, AWS, and NGINX to create full-stack applications.
           I'm currently developing a web application that helps guitarists improve their fretboard navigation abilities.</p><br/>
           <p>
-          Outside of work, I like to <a href="https://www.instagram.com/p/B-Dj4Maho2H/?utm_source=ig_web_copy_link">play guitar</a> and <a href="https://www.instagram.com/p/CS5p-90rk6n/?utm_source=ig_web_copy_link">cook nice meals</a>.
+          Outside of work, I like to <a href="https://www.instagram.com/p/CToWJs7FI9M/?utm_source=ig_web_copy_link">play guitar</a> and <a href="https://www.instagram.com/p/CS5p-90rk6n/?utm_source=ig_web_copy_link">cook nice meals</a>.
         </p>
       </div>
       <br/>
