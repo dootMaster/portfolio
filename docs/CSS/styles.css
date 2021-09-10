@@ -1,31 +1,121 @@
 html {
   font-family: "Roboto";
-  background-color: #3891A6;
-  margin: 0;
+  background-color: gainsboro;
 }
 
-h3 {
-  font-size: 1.5rem;
+.app-container {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.8;
+  border-radius: 100px;
 }
 
-p {
-  font-size: 1rem;
-}
-
-.about-and-skills-container {
-  display: grid;
-  grid-template-areas: "a" "b";
-  gap: 2rem;
+.navbar-container {
+  position: fixed;
+  display: block;
+  background-color: white;
   padding: 2rem;
-  /* width: min-content; */
+  width: 200px;
+  height: 100vh;
 }
 
-/* @media only screen and (min-width: 720px) {
-  .about-and-skills-container {
-    grid-template-areas: "a b";
-  }
-} */
+.name-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
-@-ms-viewport{
-  width: device-width;
+.navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navlist li {
+  margin-bottom: 5%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navlist a {
+  color: black;
+  text-decoration: none;
+}
+
+.navlist a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  width: 100vw;
+  margin-top: 4rem;
+  margin-left: 264px;
+}
+
+.main {
+  background-color: #fff;
+  width: 50vw;
+  padding: 2rem 4rem 3rem 4rem;
+}
+
+.nav-button {
+  display: none;
+}
+
+@media all and (max-width: 1000px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: min-content;
+    width: 100vw;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .name-title {
+    position: relative;
+    margin-bottom: 0rem;
+  }
+
+  .navlist {
+    display: flex;
+    position: relative;
+    width: min-content;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .navlist li {
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+  }
+
+  .nav-button {
+    display: initial;
+    position: relative;
+    right: 8vw;
+    padding: 0;
+    width: 50px;
+    border: 0;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    outline: 0;
+    font-size: 40px;
+  }
+
+  .main-container {
+    margin-left: 0;
+  }
+
 }
