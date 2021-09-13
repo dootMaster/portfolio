@@ -34,7 +34,7 @@ function Main () {
           />
           <ListItem
             address={'https://dootmaster.github.io/metronome/'}
-            title={'Another Metronome'}
+            title={'Metronome'}
             description={'A metronome I built based off of Grant James\' scheduling algorithm. setInterval is not accurate enough for musicians to keep time, and this app employs a combination of setInterval and Web Audio API\'s currentTime method to ensure that timing is robust and usable for practice.'}
           />
         </ul>
