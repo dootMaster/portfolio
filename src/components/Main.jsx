@@ -32,6 +32,11 @@ function Main () {
             title={'project:CATWALK'}
             description={'An e-commerce site where I built the "Related Products" module. I made carousels from scratch to enhance customizability.'}
           />
+          <ListItem
+            address={'https://dootmaster.github.io/metronome/'}
+            title={'Metronome'}
+            description={'A metronome I built based off of Grant James\' scheduling algorithm. setInterval is not accurate enough for musicians to keep time, and this app employs a combination of setInterval and Web Audio API\'s currentTime method to ensure that timing is robust and usable for practice.'}
+          />
         </ul>
       </div>
     </div>
