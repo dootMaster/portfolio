@@ -25,17 +25,17 @@ function Main () {
           <ListItem
             address={"https://github.com/maythovens-third/Products"}
             title={'Atelier Product API'}
-            description={<>An <b>API</b> that provides data to a fashion products merchant site. Three instances of <b>Express.js</b> servers were deployed via <b>AWS</b> behind an <b>NGINX</b> load balancer, and connected to a server hosting a database powered by <b>PostgreSQL</b>. I wrote <b>K6 tests</b> that created up to 3000 virtual users that bombard the load balancer with requests in order to locate where optimizations can be performed.</>}
+            description={<> An <b>API</b> that provides data to a fashion products merchant site. Three instances of <b>Express.js</b> servers were deployed via <b>AWS</b> behind an <b>NGINX</b> load balancer, and connected to a server hosting a database powered by <b>PostgreSQL</b>. I wrote <b>K6 tests</b> that created up to 3000 virtual users that bombard the load balancer with requests in order to locate where optimizations can be performed.</>}
           />
           <ListItem
             address={'https://youtu.be/jaNWTNB9OsA'}
             title={'project:CATWALK'}
-            description={<>An <b>e-commerce React application</b> where I built the "Related Products" module. I made <b>carousels</b> from scratch to enhance customizability. I also built a data algorithm that both <b>reduced requests made to the API</b> as well as <b>improved speed of responses</b> to user actions.</>}
+            description={<> An <b>e-commerce React application</b> where I built the "Related Products" module. I made <b>carousels</b> from scratch to enhance customizability. I also built a data algorithm that both <b>reduced requests made to the API</b> as well as <b>improved speed of responses</b> to user actions.</>}
           />
           <ListItem
             address={'https://dootmaster.github.io/metronome/'}
             title={'Metronome'}
-            description={<>A metronome I built based off of Grant James' scheduling algorithm using <b>React</b>. setInterval is not accurate enough for musicians to keep time, and this app employs a <b>combination of setInterval and Web Audio API's</b> currentTime method to ensure that timing is robust and usable for practice. </>}
+            description={<> A metronome I built based off of Grant James' scheduling algorithm using <b>React</b>. setInterval is not accurate enough for musicians to keep time, and this app employs a <b>combination of setInterval and Web Audio API's</b> currentTime method to ensure that timing is robust and usable for practice. </>}
           />
         </ul>
       </div>
