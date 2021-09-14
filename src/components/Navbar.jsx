@@ -7,7 +7,7 @@ const Navbar = () => {
       <ul className="navlist">
         <li><a href="https://github.com/dootMaster">github</a></li>
         <li><a href="https://www.linkedin.com/in/leslie-ngo/">linkedIn</a></li>
-        <li><a href="/docs/Leslie Ngo Resume.pdf" download>download resume</a></li>
+        <li><a href="/docs/Leslie Ngo Resume.pdf" download>resume download</a></li>
       </ul>
     </div>
   )
