@@ -18,7 +18,7 @@ function Main () {
         <h1>Projects</h1>
         <ul>
           <ListItem
-            address={'https://dootmaster.github.io/keyframeguitar/'}
+            address={'https://dootmaster.github.io/keyframeguitar-ts/'}
             title={'Key Frame Guitar'}
             description={<> A <b>music practice application </b>I built using <b>React</b> inspired by key frames in animation. This app takes user input and creates fretboard maps of intersecting harmonies. </>}
           />
