@@ -10,7 +10,7 @@ const Navbar = () => {
         <li><a href="https://github.com/dootMaster">github</a></li>
         <li><a href="https://www.linkedin.com/in/leslie-ngo/">linkedIn</a></li>
         <li><a href="https://github.com/dootMaster/portfolio/raw/main/docs/Leslie-Ngo-Resume.pdf" download>resume download</a></li>
-        <li><Link to="/blog">blog</Link></li>
+//         <li><Link to="/blog">blog</Link></li>
       </ul>
     </div>
   )
