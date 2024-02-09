@@ -15,20 +15,20 @@ function Main () {
       </div>
       <br/>
       <div className="projects">
-        <h1>Work</h1>
+        <h2>Work</h2>
           <h3>Full Stack Developer at Sachi</h3>
           <ul className='work-details'>
-            <li>Generating a REST API with Express and Apollo GraphQL to handle user details and perform booking services.</li>
-            <li>Designing and adapting MongoDB models, queries to accommodate evolving product specifications, providing flexibility to meet the demands of a rapidly expanding product.</li>
-            <li>Supporting the development of the user view using Next.js and Chakra UI, ensuring alignment with product designers' specifications and design guidelines.</li>
+            <li>Generating a <b>REST API</b> with <b>Express</b> and <b>Apollo GraphQL</b> to handle user details and perform booking services.</li>
+            <li>Designing and adapting <b>MongoDB</b> models, queries to accommodate evolving product specifications, providing flexibility to meet the demands of a rapidly expanding product.</li>
+            <li>Supporting the development of the user view using <b>Next.js</b> and <b>Chakra UI</b>, ensuring alignment with product designers' specifications and design guidelines.</li>
             <li>Providing technical guidance, mentorship, and direct oversight to a junior engineer, offering support and guidance throughout the project lifecycle. Assisted in their professional development by sharing best practices, conducting code reviews, and fostering a collaborative learning environment.</li>
           </ul>
-        <h1>Projects</h1>
-        <ul>
+        <h2>Endeavors</h2>
+        <ul className='endeavors-list'>
           <ListItem
             address={'https://dootmaster.github.io/keyframeguitar-ts/'}
             title={'Key Frame Guitar'}
-            description={<> A <b>music practice application </b>I built using <b>React</b> inspired by key frames in animation. This app takes user input and creates fretboard maps of intersecting harmonies. </>}
+            description={<> A <b>guitar practice application </b>I built using <b>React</b> inspired by key frames in animation. It creates fretboard maps of intersecting harmonies. I created this because I was disatisfied with the complexity and entry costs of existing tools. This app was released to music education communities I am a member of to use free of charge.</>}
           />
           <ListItem
             address={"https://github.com/maythovens-third/Products"}

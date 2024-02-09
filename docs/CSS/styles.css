@@ -63,7 +63,12 @@ html {
 }
 
 .work-details {
+  font-size: small;
   padding-left: 2rem;
+}
+
+.endeavors-list {
+  font-size: small;
 }
 
 @media all and (max-width: 1000px) {
