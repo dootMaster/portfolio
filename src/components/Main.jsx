@@ -15,6 +15,14 @@ function Main () {
       </div>
       <br/>
       <div className="projects">
+        <h1>Work</h1>
+        <ul>
+          <ListItem
+{/*             address={'https://dootmaster.github.io/keyframeguitar-ts/'} */}
+            title={'Full Stack Developer at Sachi'}
+            description={'In my recent role, I was responsible for generating a REST API using Express and Apollo GraphQL to manage user details and facilitate booking services. I also played a key role in designing and adapting MongoDB models and queries to accommodate evolving product specifications, ensuring flexibility to meet the demands of our rapidly expanding product. Additionally, I contributed to the development of the user interface using Next.js and Chakra UI, ensuring alignment with product designers' specifications and design guidelines. Furthermore, I provided technical guidance, mentorship, and direct oversight to a junior engineer, supporting their professional development through sharing best practices, conducting code reviews, and fostering a collaborative learning environment throughout the project lifecycle.'}
+          />
+        </ul>
         <h1>Projects</h1>
         <ul>
           <ListItem
